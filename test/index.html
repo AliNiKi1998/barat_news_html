@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Person{
+            constructor(name , lastName , age){
+            this.name = name;
+            this.lastName = lastName;
+            this.age = age;
+            }
+
+            getting(){
+                console.log(
+                    `is name ${this.name} is last name ${this.lastName} is age ${this.age}`
+                );
+            }
+
+            static get(){
+                console.log('this is static method');
+            }
+        }
+
+        class Customer extends Person{
+            constructor(name , lastName , age , phone , gender){
+                super(name , lastName , age);
+                this.phone = phone;
+                this.sex = gender;
+            }
+            
+        }
+        let obj1 = new Customer('ali' , 'niki' , '21' , '0933' , 'maile');
+        obj1.getting();
+        // let obj = new Person('ali', 'niki' , 21);
+        // console.log(obj);
+
+        // Person.get();
+    </script>
+</body>
+
+</html>

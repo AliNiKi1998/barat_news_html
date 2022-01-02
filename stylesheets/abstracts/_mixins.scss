@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+@mixin typographyStyle($fontSize, $color, $fontFamily, $weight, $height) {
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  font-weight: $weight;
+  line-height: $height;
+  color: $color;
+}
+
+@mixin typographyIcon($fontSize, $color) {
+  font-size: $fontSize;
+  color: $color;
+}

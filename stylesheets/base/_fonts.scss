@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@font-face {
+  font-family: iran-sans;
+  src: url(../fonts/IRANsans1.ttf);
+}
+@font-face {
+  font-family: iran-sans2;
+  src: url(../fonts/IRANSansWeb_Light.woff2);
+}

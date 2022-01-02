@@ -1,0 +1,157 @@
+/**
+ * Basic typography style for copy text
+ */
+
+ //header
+ .header-contact ul li a{
+     @include typographyStyle(15px,$textIconColor,$iran-sans2,400,1.7);
+     text-decoration: none;
+ }
+ .header-contact i{
+    @include typographyIcon(14px , $iconColor);
+ }
+ .header-addres span{
+    @include typographyStyle(15px,$textIconColor,$iran-sans2,400,1.7);
+}
+.header-addres i{
+    @include typographyIcon(14px , $iconColor);
+}
+.nav-menu a{
+    @include typographyStyle(15px,$whiteColor,$iran-sans2,500,22px);
+}
+.search i{
+    @include typographyIcon(20px , $whiteColor);
+}
+.cart-icon-num{
+    @include typographyStyle(11px,$whiteColor,$iran-sans2,500,2.2 !important);
+}
+.news-title span{
+    @include typographyStyle(18px,$whiteColor,$iran-sans2,500,1);
+}
+.news-content span span{
+    @include typographyStyle(20px,$blackColor,$iran-sans2,500,1);
+}
+.calc-item i{
+    @include typographyIcon(18px , $iconColor);
+}
+.calc-items{
+    @include typographyStyle(13px,#777,$iran-sans2,500,1);
+}
+//gallery
+.portfolio__gallery_overlay_subtitle{
+    @include typographyStyle(12px,$whiteColor,$iran-sans2,500,1);
+}
+.portfolio__gallery_overlay_heading{
+    @include typographyStyle(24px,$whiteColor,$iran-sans2,500,1);
+}
+
+//latest news
+.latest__news__header_title h2{
+    @include typographyStyle(18px,$whiteColor,$iran-sans2,500,1.4);
+}
+.latest__news__header_list li{
+    @include typographyStyle(15px,$blackColor,$iran-sans2,500,1);
+}
+.more_link a{
+    @include typographyStyle(15px,$blackColor,$iran-sans2,500,1);
+}
+.latest__news_right_link_head a{
+    @include typographyStyle(11px,$whiteColor,$iran-sans2,500,1);
+}
+.latest__news_right_overlay_title_head ul > li a ,.latest__news_right_overlay_title_head ul > li{
+    @include typographyStyle(14px,$whiteColor,$iran-sans2,500,1);
+}
+.latest__news_right_overlay_title_content a{
+    @include typographyStyle(24px,$whiteColor,$iran-sans2,500,2);
+}
+.latest__news_content_head ul li{
+    @include typographyStyle(14px,#757272,$iran-sans2,500,1);
+}
+.latest__news_content_text a{
+    @include typographyStyle(18px,$blackColor,$iran-sans2,500,1.5);
+}
+.life-style-main-head h3 , .connection-connect-head-content h3{
+    @include typographyStyle(18px,$whiteColor,$iran-sans2,500,1.5);
+}
+
+.life-style-main-item-content ul li ,.life-style-main-item-content ul li a {
+    @include typographyStyle(14px,#cccccc,$iran-sans2,500,1);
+}
+.life-style-main-item-content-text a{
+    @include typographyStyle(20px,$whiteColor,$iran-sans2,500,1.5);
+}
+.social-main-item-icon{
+    @include typographyStyle(14px,$whiteColor,$iran-sans2,500,1.5);
+}
+
+.social-main-item-count{
+    @include typographyStyle(14px,$textIconColor,$iran-sans2,500,1.5);
+}
+.final-news-item-text a{
+    @include typographyStyle(17px,$blackColor,$iran-sans2,500,1.5);
+}
+.popular-mask-cat a{
+    @include typographyStyle(12px,$whiteColor,$iran-sans2,500,1.5);
+}
+.popular-mask h3 a{
+    @include typographyStyle(20px,$whiteColor,$iran-sans2,500,1.5);
+}
+
+.collection-list-content-head ul li{
+    @include typographyStyle(14px,$timeColor,$iran-sans2,500,1);
+}
+
+.collection-list-content-text a{
+    @include typographyStyle(18px,$blackColor,$iran-sans2,500,1.5);
+}
+
+.other-news-p{
+    @include typographyStyle(15px,#444,$iran-sans2,500,1.6);  
+}
+
+.news-letters-area{
+    h2{
+        @include typographyStyle(24px,$whiteColor,$iran-sans2,500,1.5);  
+    }
+    P{
+        @include typographyStyle(16px,$whiteColor,$iran-sans2,500,1.5);   
+    }
+}
+
+
+// footer
+.widgettitle{
+    @include typographyStyle(24px,$whiteColor,$iran-sans2,500,1); 
+}
+
+.footer-top-about-content{
+    p{
+        @include typographyStyle(15px,$footerColorP,$iran-sans2,500,1.6);  
+    }
+}
+
+.footer-popular-text{
+    h3 a{
+        @include typographyStyle(15px,$footerColorP,$iran-sans2,400,1.4);  
+    }
+}
+
+.footer-cat{
+    a{
+        @include typographyStyle(15px,$footerColorP,$iran-sans2,400,1.4); 
+    }
+}
+
+.footer-label{
+    a{
+        @include typographyStyle(15px,$footerColorP,$iran-sans2,400,1.4); 
+    }
+}
+.footer-copy-right{
+    p{
+        @include typographyStyle(15px,$timeColor,$iran-sans2,400,1.4);
+    }
+    a{
+        @include typographyStyle(16px,$whiteColor,$iran-sans2,400,1.4);
+    }
+}

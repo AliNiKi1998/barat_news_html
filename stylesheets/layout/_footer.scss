@@ -1,0 +1,162 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer_top_area {
+  background-color: $footerColor;
+  padding: 70px 0 40px;
+  border-bottom: 1px solid $footerColorP;
+}
+.footer-top-main {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.footer-top-about {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.widgettitle {
+  margin-bottom: 30px;
+}
+.widgettitle::after {
+  background: #e53935;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  margin: 17px 0 23px;
+  right: 0;
+  top: 0;
+  width: 50px;
+}
+.footer-top-about-content {
+  max-width: 100%;
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.footer-popular-item {
+  display: flex;
+  margin-top: 30px;
+}
+.footer-popular-link {
+  width: 40%;
+  margin-left: 15px;
+
+  background-color: white;
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    transition: all 0.2s ease-in-out;
+  }
+  &:hover img {
+    opacity: 0.9;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.footer-popular-text {
+    h3 a{
+        transition: all 0.4s ease-in-out;
+    }
+  h3 a:hover {
+    color: $iconColor;
+  }
+}
+
+.footer-cat {
+  h3 {
+    min-width: 100%;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 50%;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+      padding-right: 1px;
+      position: relative;
+    }
+    a{
+        transition: all 0.4s ease-in-out;
+    }
+    a:hover {
+      color: $iconColor;
+    }
+  }
+}
+
+.footer-label {
+  width: 100%;
+  a {
+    display: inline-block;
+    font-size: 14px !important;
+    margin: 0 0 4px 2px;
+    padding: 8px 15px;
+    transition: all 0.3s ease 0s;
+    border: 1px solid $whiteColor;
+    transition: all 0.4s ease-in-out;
+  }
+  a:hover {
+    background-color: $iconColor;
+    border-color: $iconColor;
+  }
+}
+
+.footer_bottom_area {
+  background-color: $footerColor;
+  padding: 70px 0 40px;
+}
+
+.footer-logo {
+  margin: 0 auto 30px;
+  max-width: 210px;
+  img {
+    max-width: 100%;
+  }
+}
+.footer-social {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.footer-social-ul {
+  padding-right: 0;
+  display: flex;
+  list-style: none;
+  text-align: center;
+    li {
+      width: 50px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      a{
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        background-color: #404040;
+        text-align: center;
+        color: #fff;
+        display: block;
+        transition: all 0.4s ease-in-out;
+        &:hover{
+            background-color: $iconColor;
+        }
+      }
+    }
+}
+.footer-copy-right{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;   
+    p , a{
+        margin-top: 30px;
+        transition: all 0.4s ease-in-out;
+    }
+    a:hover{
+        color: $iconColor;
+    }
+}

@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  z-index: 0;
+  direction: rtl;
+  background-color: #f8f8f8;
+  a{
+    text-decoration: none;
+  }
+}
+.container{
+  width: 1250px;
+  margin: 0 auto;
+}
+a:hover{
+  transition: all .4s ease-in-out;
+}
